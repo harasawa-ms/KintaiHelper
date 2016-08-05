@@ -1,2 +1,249 @@
-/**/
+/* FONT */
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,900italic,900,700italic,100italic,100);
 
+.noto100 {font-weight:100;}
+.noto200 {font-weight:200;}
+.noto300 {font-weight:300;}
+.noto400 {font-weight:400;}
+.noto500 {font-weight:500;}
+.noto600 {font-weight:600;}
+.noto700 {font-weight:700;}
+.noto800 {font-weight:800;}
+.noto900 {font-weight:900;}
+
+/* MAIN */
+
+#fab_regist{
+    margin-top:28px;    
+}
+
+body{
+    font-family: 'Roboto','Noto Sans Japanese', sans-serif;
+}
+
+.container{
+    width:85%;
+    margin:30px auto 0;
+    text-align: center;
+}
+
+.header{
+    text-align: center;    
+    color:#ff8c7f;
+}
+
+.contents-top{
+    text-align: left !important;    
+}
+
+.divInput{
+    margin-top:12px;    
+}
+
+.divInput ons-icon,.contents-bottom ons-icon{
+    margin-right:4px;
+    
+}
+
+.divInput span,.input-item span{
+    font-size:14px;
+    color:#707070;
+    text-align: left;
+
+}
+
+.divInput span{
+    padding-left:4px;
+}
+
+.input-item span{
+    padding-left:8px;    
+}
+
+.input-item{
+    margin-top:12px;    
+}
+
+.input-item input[type="text"],.input-item textarea{
+    border-radius:4px;
+    padding:8px;
+    border: 1px solid #808080;
+    width:90%;
+}
+
+
+.input-item textarea{
+    height:84px;
+}
+
+
+
+.contents-middle input[type="text"]:focus,textarea:focus{
+    border: 1px solid #4691e6;
+    transform: scale(1.2,1.2);
+    transition:0.5s all;
+}
+
+.input-item span{
+    display:block;
+}
+
+.caret{
+    text-align: center;
+    margin-top:8px;
+    color:#ff8c7f;
+}
+
+
+.contents-middle{
+    margin-top: -16px    
+}
+
+
+#btnSend{
+    display:inline-block;
+    padding:6px 80px;
+    border-radius: 4px;
+    background-color: #6da8e5;
+    text-decoration:none;
+    border:2px solid #4691e6;
+    color:white;
+    margin-top:8px;
+}
+
+
+/* OnsenUIの上書き */
+.button-bar {
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 17px;
+  display: table;
+  table-layout: fixed;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  margin: 0;
+  border: none;
+}
+.button-bar__item {
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 17px;
+  display: table-cell;
+  width: auto;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  position: relative;
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+.button-bar__item > input {
+  position: absolute;
+  overflow: hidden;
+  right: 0px;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  padding: 0;
+  border: 0;
+  opacity: 0.001;
+  z-index: 1;
+  vertical-align: top;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.button-bar__item:first-child > .button-bar__button {
+  border-left: 1px solid rgba(18,114,224,0.77);
+  border-right: 1px solid rgba(18,114,224,0.77);
+  -webkit-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.button-bar__item:last-child > .button-bar__button {
+  border-right: 1px solid rgba(18,114,224,0.77);
+  -webkit-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.button-bar__button {
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 17px;
+  -webkit-border-radius: inherit;
+  border-radius: inherit;
+  background-color: transparent;
+  color: rgba(18,114,224,0.77);
+  border: 0px solid rgba(18,114,224,0.77);
+  border-top: 1px solid rgba(18,114,224,0.77);
+  border-bottom: 1px solid rgba(18,114,224,0.77);
+  border-right: 1px solid rgba(18,114,224,0.77);
+  font-weight: 400;
+  padding: 0 8px;
+  height: 27px;
+  line-height: 27px;
+  font-size: 13px;
+  width: 100%;
+  -webkit-transition: background-color 0.2s linear, color 0.2s linear;
+  -moz-transition: background-color 0.2s linear, color 0.2s linear;
+  -o-transition: background-color 0.2s linear, color 0.2s linear;
+  transition: background-color 0.2s linear, color 0.2s linear;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.button-bar__button:active,
+:active + .button-bar__button {
+  background-color: rgba(18, 114, 224, 0.2);
+  border: 0px solid rgba(18,114,224,0.77);
+  border-top: 1px solid rgba(18,114,224,0.77);
+  border-bottom: 1px solid rgba(18,114,224,0.77);
+  border-right: 1px solid rgba(18,114,224,0.77);
+  height: 27px;
+  line-height: 27px;
+  font-size: 13px;
+  width: 100%;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+.button-bar__item.active > .button-bar__button,
+:checked + .button-bar__button {
+  background-color: rgba(18,114,224,0.77);
+  color: #fff;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+.button-bar__button:disabled {
+  opacity: 0.3;
+  cursor: default;
+  pointer-events: none;
+}
+.button-bar__button:hover {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+.button-bar__button:focus {
+  outline: 0;
+}
